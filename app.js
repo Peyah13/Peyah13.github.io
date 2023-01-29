@@ -10,6 +10,9 @@ mediumZoom('.preview',{
     background: 'rgba(25, 18, 25, .9)'
 });
 
+const year = document.querySelector('#current-year')
+year.innerHTML= new Date().getFullYear()
+
 
 
 
