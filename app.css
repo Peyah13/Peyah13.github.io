@@ -247,3 +247,18 @@ p {
     align-items: center;
     text-align: center;
 }
+
+
+.link .logo-gif {
+    animation: none;  /* disable the animation by default */
+  }
+  
+  .link:hover .logo-gif {
+    animation: spin 2s linear infinite;  /* enable the animation on hover */
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
